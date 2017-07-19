@@ -7,21 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7433DC3371ED473C91922283 /* Pods_Alarmify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9DE3A5B628CD94571293A8 /* Pods_Alarmify.framework */; };
+		AB0105501F1BBC2E002889E6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB01054F1F1BBC2E002889E6 /* AVFoundation.framework */; };
+		AB0105521F1BBC37002889E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0105511F1BBC37002889E6 /* SystemConfiguration.framework */; };
+		AB0105671F1BC4D5002889E6 /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0105661F1BC4D5002889E6 /* SpotifyAudioPlayback.framework */; };
+		AB01056A1F1BC4E3002889E6 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0105681F1BC4E3002889E6 /* SpotifyAuthentication.framework */; };
+		AB01056B1F1BC4E3002889E6 /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0105691F1BC4E3002889E6 /* SpotifyMetadata.framework */; };
 		AB13C56C1F1BB7E100AB30DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13C56B1F1BB7E100AB30DC /* AppDelegate.swift */; };
-		AB13C56E1F1BB7E100AB30DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13C56D1F1BB7E100AB30DC /* ViewController.swift */; };
+		AB13C56E1F1BB7E100AB30DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13C56D1F1BB7E100AB30DC /* LoginViewController.swift */; };
 		AB13C5711F1BB7E100AB30DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB13C56F1F1BB7E100AB30DC /* Main.storyboard */; };
 		AB13C5731F1BB7E100AB30DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB13C5721F1BB7E100AB30DC /* Assets.xcassets */; };
 		AB13C5761F1BB7E100AB30DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB13C5741F1BB7E100AB30DC /* LaunchScreen.storyboard */; };
+		AB1649861F1EF34A007CBF19 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1649851F1EF34A007CBF19 /* Constants.swift */; };
+		AB1649881F1F0048007CBF19 /* SpotifyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1649871F1F0048007CBF19 /* SpotifyDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E9DE3A5B628CD94571293A8 /* Pods_Alarmify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alarmify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB569C07F4B27988ABCAFBB /* Pods-Alarmify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alarmify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alarmify/Pods-Alarmify.release.xcconfig"; sourceTree = "<group>"; };
+		AB01054F1F1BBC2E002889E6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AB0105511F1BBC37002889E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AB0105651F1BC37C002889E6 /* Alarmify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alarmify-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB0105661F1BC4D5002889E6 /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		AB0105681F1BC4E3002889E6 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		AB0105691F1BC4E3002889E6 /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
 		AB13C5681F1BB7E100AB30DC /* Alarmify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarmify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB13C56B1F1BB7E100AB30DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB13C56D1F1BB7E100AB30DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB13C56D1F1BB7E100AB30DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AB13C5701F1BB7E100AB30DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB13C5721F1BB7E100AB30DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB13C5751F1BB7E100AB30DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB13C5771F1BB7E100AB30DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1649851F1EF34A007CBF19 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AB1649871F1F0048007CBF19 /* SpotifyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyDelegate.swift; sourceTree = "<group>"; };
+		B6C9AC21E5687BF21F6278CC /* Pods-Alarmify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alarmify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alarmify/Pods-Alarmify.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +48,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB01056A1F1BC4E3002889E6 /* SpotifyAuthentication.framework in Frameworks */,
+				AB0105521F1BBC37002889E6 /* SystemConfiguration.framework in Frameworks */,
+				AB0105671F1BC4D5002889E6 /* SpotifyAudioPlayback.framework in Frameworks */,
+				AB0105501F1BBC2E002889E6 /* AVFoundation.framework in Frameworks */,
+				AB01056B1F1BC4E3002889E6 /* SpotifyMetadata.framework in Frameworks */,
+				7433DC3371ED473C91922283 /* Pods_Alarmify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FD59DF2E53045581899EF22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB0105681F1BC4E3002889E6 /* SpotifyAuthentication.framework */,
+				AB0105691F1BC4E3002889E6 /* SpotifyMetadata.framework */,
+				AB0105661F1BC4D5002889E6 /* SpotifyAudioPlayback.framework */,
+				AB0105511F1BBC37002889E6 /* SystemConfiguration.framework */,
+				AB01054F1F1BBC2E002889E6 /* AVFoundation.framework */,
+				3E9DE3A5B628CD94571293A8 /* Pods_Alarmify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		461C60E4EFFBEF3AC78B4CB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6C9AC21E5687BF21F6278CC /* Pods-Alarmify.debug.xcconfig */,
+				5CB569C07F4B27988ABCAFBB /* Pods-Alarmify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AB13C55F1F1BB7E100AB30DC = {
 			isa = PBXGroup;
 			children = (
 				AB13C56A1F1BB7E100AB30DC /* Alarmify */,
 				AB13C5691F1BB7E100AB30DC /* Products */,
+				461C60E4EFFBEF3AC78B4CB5 /* Pods */,
+				3FD59DF2E53045581899EF22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +103,25 @@
 		AB13C56A1F1BB7E100AB30DC /* Alarmify */ = {
 			isa = PBXGroup;
 			children = (
+				AB1649841F1EF337007CBF19 /* Constants */,
 				AB13C56B1F1BB7E100AB30DC /* AppDelegate.swift */,
-				AB13C56D1F1BB7E100AB30DC /* ViewController.swift */,
+				AB13C56D1F1BB7E100AB30DC /* LoginViewController.swift */,
 				AB13C56F1F1BB7E100AB30DC /* Main.storyboard */,
 				AB13C5721F1BB7E100AB30DC /* Assets.xcassets */,
 				AB13C5741F1BB7E100AB30DC /* LaunchScreen.storyboard */,
 				AB13C5771F1BB7E100AB30DC /* Info.plist */,
+				AB0105651F1BC37C002889E6 /* Alarmify-Bridging-Header.h */,
+				AB1649871F1F0048007CBF19 /* SpotifyDelegate.swift */,
 			);
 			path = Alarmify;
+			sourceTree = "<group>";
+		};
+		AB1649841F1EF337007CBF19 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AB1649851F1EF34A007CBF19 /* Constants.swift */,
+			);
+			name = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB13C57A1F1BB7E100AB30DC /* Build configuration list for PBXNativeTarget "Alarmify" */;
 			buildPhases = (
+				B2838EF84A06A1C2539CF505 /* [CP] Check Pods Manifest.lock */,
 				AB13C5641F1BB7E100AB30DC /* Sources */,
 				AB13C5651F1BB7E100AB30DC /* Frameworks */,
 				AB13C5661F1BB7E100AB30DC /* Resources */,
+				58F7B7EE3F0D0BDEE9413017 /* [CP] Embed Pods Frameworks */,
+				B3296BCA6B1D94976A5DECA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +195,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58F7B7EE3F0D0BDEE9413017 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alarmify/Pods-Alarmify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2838EF84A06A1C2539CF505 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3296BCA6B1D94976A5DECA5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alarmify/Pods-Alarmify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB13C5641F1BB7E100AB30DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB13C56E1F1BB7E100AB30DC /* ViewController.swift in Sources */,
+				AB13C56E1F1BB7E100AB30DC /* LoginViewController.swift in Sources */,
+				AB1649881F1F0048007CBF19 /* SpotifyDelegate.swift in Sources */,
 				AB13C56C1F1BB7E100AB30DC /* AppDelegate.swift in Sources */,
+				AB1649861F1EF34A007CBF19 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,27 +372,47 @@
 		};
 		AB13C57B1F1BB7E100AB30DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C9AC21E5687BF21F6278CC /* Pods-Alarmify.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QJYFTX722N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Alarmify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = dmsmith.Alarmify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alarmify/Alarmify-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
 		AB13C57C1F1BB7E100AB30DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB569C07F4B27988ABCAFBB /* Pods-Alarmify.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QJYFTX722N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Alarmify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = dmsmith.Alarmify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alarmify/Alarmify-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
@@ -302,6 +435,7 @@
 				AB13C57C1F1BB7E100AB30DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
