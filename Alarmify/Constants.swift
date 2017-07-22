@@ -12,10 +12,15 @@ import Foundation
 public let ALARMIFY = "Alarmify"
 
 // NavBar Titles
-public let LOGIN = "Login With Spotify"
-public let PLAYLIST = "Select A Playlist"
-public let CLOCK = "Clock"
-public let SONGS = "Select A Song"
+public let LOGIN_TITLE = "Login With Spotify"
+public let PLAYLIST_TITLE = "Select A Playlist"
+public let CLOCK_TITLE = "Clock"
+public let SONGS_TITLE = "Select A Song"
+
+// Notifications
+public let PLAYLISTS_RETRIEVED_NOTIFICATION = Notification.Name(rawValue: "PlaylistsRetrievedNotification")
+
+public let TRACKS_RETRIEVED_NOTIFICATION = Notification.Name(rawValue: "TracksRetrievedNotification")
 
 // TODO: HIDE AWAY THESE GLOBAL CONSTANTS
 public let CLIENT_ID = "157d36bbc66b42869779f13f3a92a27a"

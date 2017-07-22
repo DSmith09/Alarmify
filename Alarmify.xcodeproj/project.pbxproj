@@ -20,6 +20,9 @@
 		AB13C5761F1BB7E100AB30DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB13C5741F1BB7E100AB30DC /* LaunchScreen.storyboard */; };
 		AB1649861F1EF34A007CBF19 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1649851F1EF34A007CBF19 /* Constants.swift */; };
 		AB1649881F1F0048007CBF19 /* SpotifyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1649871F1F0048007CBF19 /* SpotifyDelegate.swift */; };
+		AB16498A1F205784007CBF19 /* PlaylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1649891F205784007CBF19 /* PlaylistTableViewController.swift */; };
+		AB16498F1F205B43007CBF19 /* PlaylistDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB16498E1F205B43007CBF19 /* PlaylistDelegate.swift */; };
+		ABBA0C681F231EA200F00000 /* TracksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA0C671F231EA200F00000 /* TracksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		AB13C5771F1BB7E100AB30DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB1649851F1EF34A007CBF19 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AB1649871F1F0048007CBF19 /* SpotifyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyDelegate.swift; sourceTree = "<group>"; };
+		AB1649891F205784007CBF19 /* PlaylistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewController.swift; sourceTree = "<group>"; };
+		AB16498E1F205B43007CBF19 /* PlaylistDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDelegate.swift; sourceTree = "<group>"; };
+		ABBA0C671F231EA200F00000 /* TracksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracksTableViewController.swift; sourceTree = "<group>"; };
 		B6C9AC21E5687BF21F6278CC /* Pods-Alarmify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alarmify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alarmify/Pods-Alarmify.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,15 +109,15 @@
 		AB13C56A1F1BB7E100AB30DC /* Alarmify */ = {
 			isa = PBXGroup;
 			children = (
+				AB16498C1F2057C8007CBF19 /* Delegates */,
+				AB16498B1F2057AF007CBF19 /* ViewControllers */,
 				AB1649841F1EF337007CBF19 /* Constants */,
 				AB13C56B1F1BB7E100AB30DC /* AppDelegate.swift */,
-				AB13C56D1F1BB7E100AB30DC /* LoginViewController.swift */,
 				AB13C56F1F1BB7E100AB30DC /* Main.storyboard */,
 				AB13C5721F1BB7E100AB30DC /* Assets.xcassets */,
 				AB13C5741F1BB7E100AB30DC /* LaunchScreen.storyboard */,
 				AB13C5771F1BB7E100AB30DC /* Info.plist */,
 				AB0105651F1BC37C002889E6 /* Alarmify-Bridging-Header.h */,
-				AB1649871F1F0048007CBF19 /* SpotifyDelegate.swift */,
 			);
 			path = Alarmify;
 			sourceTree = "<group>";
@@ -122,6 +128,25 @@
 				AB1649851F1EF34A007CBF19 /* Constants.swift */,
 			);
 			name = Constants;
+			sourceTree = "<group>";
+		};
+		AB16498B1F2057AF007CBF19 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB13C56D1F1BB7E100AB30DC /* LoginViewController.swift */,
+				AB1649891F205784007CBF19 /* PlaylistTableViewController.swift */,
+				ABBA0C671F231EA200F00000 /* TracksTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AB16498C1F2057C8007CBF19 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				AB16498E1F205B43007CBF19 /* PlaylistDelegate.swift */,
+				AB1649871F1F0048007CBF19 /* SpotifyDelegate.swift */,
+			);
+			name = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,10 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB16498A1F205784007CBF19 /* PlaylistTableViewController.swift in Sources */,
 				AB13C56E1F1BB7E100AB30DC /* LoginViewController.swift in Sources */,
+				ABBA0C681F231EA200F00000 /* TracksTableViewController.swift in Sources */,
 				AB1649881F1F0048007CBF19 /* SpotifyDelegate.swift in Sources */,
 				AB13C56C1F1BB7E100AB30DC /* AppDelegate.swift in Sources */,
 				AB1649861F1EF34A007CBF19 /* Constants.swift in Sources */,
+				AB16498F1F205B43007CBF19 /* PlaylistDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

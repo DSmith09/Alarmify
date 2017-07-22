@@ -53,7 +53,8 @@ class SpotifyDelegate: NSObject {
 extension SpotifyDelegate: SPTAudioStreamingDelegate {
     // Login
     func audioStreamingDidLogin(_ audioStreaming: SPTAudioStreamingController!) {
-        sptPlayer.playSpotifyURI("spotify:track:46gjYTEK7W8ZTABcglGP2f", startingWith: 0, startingWithPosition: 0, callback: { error in
+        _ = PlaylistDelegate.defaultInstance().retrievePlaylists(sptSession: self.sptAuth.session)
+        sptPlayer.playSpotifyURI("spotify:track:3rOSwuTsUlJp0Pu0MkN8r8", startingWith: 0, startingWithPosition: 0, callback: { error in
             if error != nil {
                 print("Failed to Playback Spotify URI; Error: \(error!.localizedDescription)")
             } else {
