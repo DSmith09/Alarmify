@@ -1,0 +1,25 @@
+Manhattan Prep:
+
+Session 1:
+	- Data Sufficiency Format:
+		- 5 Answer choices
+			- A, B, A and B, A or B, Neither
+			- Statements are facts, they will not lie in the statements
+				- They also will NEVER contradict each other
+			- Try to branch to specific answer choices based on sufficiency of either Statement 1 or Statement 2
+				- For Example, if Statement 1 is true (isolate answer group to A or D and eliminate B, C, and E)
+
+				- Sufficiency Matrix
+
+						Statement 1		|		Statement 2		|		Statement 1 and Statement 2
+
+					A.	Sufficient				Insufficient					N/A
+
+					B.	Insufficient			Sufficient						N/A
+
+					C.	Insufficient			Insufficient					Sufficient
+
+					D.	Sufficient				Sufficient						N/A
+					
+					E.	Insufficient			Insufficient					Insufficient
+
